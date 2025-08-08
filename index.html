@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commbridge Morocco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <span>Commbridge Morocco</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About the Academy</a></li>
+                <li><a href="#program">The Program</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to Commbridge Morocco</h1>
+                <p class="tagline">Confident Communication for the Next Generation</p>
+                <p class="mission">We help young Moroccan professionals build clear, confident communication skills to succeed in work and life.</p>
+            </div>
+        </section>
+
+        <!-- About the Academy Section -->
+        <section id="about" class="section about-section">
+            <h2>About the Academy</h2>
+            <p>
+                Commbridge Morocco is an independent educational initiative aiming to improve communication skills among Moroccan youth. We use creative, practical methods to make professional communication accessible and impactful.
+            </p>
+        </section>
+
+        <!-- The Program Section -->
+        <section id="program" class="section program-section">
+            <h2>Communication Skills Program</h2>
+            <p>
+                This upcoming program combines an e-book and practical course designed to address real communication challenges faced by young professionals in Morocco.
+            </p>
+            <ul class="program-details">
+                <li><strong>Languages:</strong> English and French</li>
+                <li><strong>Approach:</strong> Practical, structured, and focused on building confidence and clarity.</li>
+                <li><strong>Status:</strong> Launching soon</li>
+            </ul>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section blog-section">
+            <h2>Blog</h2>
+            <article class="blog-post">
+                <h3>First Blog Post: Why Communication Matters</h3>
+                <p>
+                    Communication is the foundation of every professional relationship and career success. At Commbridge Morocco, we're committed to helping you develop the confidence and clarity to express yourself effectively in any situation.
+                </p>
+                <a href="#" class="read-more">Read more</a>
+            </article>
+            <p class="more-blogs">More blog posts coming soon.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <h2>Contact</h2>
+            <p>Email us at: <a href="mailto:commbridgemorocco@gmail.com">commbridgemorocco@gmail.com</a></p>
+            <p class="placeholder">[Social media links and contact form coming soon]</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Commbridge Morocco. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
